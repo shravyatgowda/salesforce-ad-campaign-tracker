@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign__c</fullName>
+    <label>Campaign</label>
+    <referenceTo>Ad_Campaign__c</referenceTo>
+    <relationshipLabel>Ad Creatives</relationshipLabel>
+    <relationshipName>Ad_Creatives</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <type>MasterDetail</type>
+    <writeRequiredMasterRead>false</writeRequiredMasterRead>
+</CustomField>

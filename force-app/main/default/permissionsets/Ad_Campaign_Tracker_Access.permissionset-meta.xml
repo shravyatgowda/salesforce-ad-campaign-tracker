@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Full access to the Ad Campaign Tracker objects, fields and tabs.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Ad Campaign Tracker Access</label>
+    <fieldPermissions><editable>true</editable><field>Ad_Campaign__c.Budget__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Ad_Campaign__c.Spend__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Ad_Campaign__c.Impressions__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Ad_Campaign__c.Launch_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Ad_Campaign__c.Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Ad_Creative__c.Spend__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Ad_Creative__c.Impressions__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Ad_Creative__c.Format__c</field><readable>true</readable></fieldPermissions>
+    <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Ad_Campaign__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+    <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Ad_Creative__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+    <tabSettings><tab>Ad_Campaign__c</tab><visibility>Visible</visibility></tabSettings>
+    <tabSettings><tab>Ad_Creative__c</tab><visibility>Visible</visibility></tabSettings>
+</PermissionSet>

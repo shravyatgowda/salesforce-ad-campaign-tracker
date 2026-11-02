@@ -1,0 +1,4 @@
+package.xml
+**/*.dup
+**/.eslintrc.json
+**/jsconfig.json
